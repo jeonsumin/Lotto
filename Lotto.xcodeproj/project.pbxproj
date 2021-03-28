@@ -16,6 +16,8 @@
 		DED6E15D261046F800888981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED6E15B261046F800888981 /* LaunchScreen.storyboard */; };
 		DED6E16626104C6800888981 /* LottoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6E16526104C6800888981 /* LottoCell.swift */; };
 		DED6E16D2610674B00888981 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DED6E16C2610674B00888981 /* libsqlite3.tbd */; };
+		DED6E1702610813600888981 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6E16F2610813600888981 /* MainViewController.swift */; };
+		DED6E173261088EC00888981 /* LastRoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED6E172261088EC00888981 /* LastRoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		DED6E15E261046F800888981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DED6E16526104C6800888981 /* LottoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoCell.swift; sourceTree = "<group>"; };
 		DED6E16C2610674B00888981 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DED6E16F2610813600888981 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DED6E172261088EC00888981 /* LastRoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRoundViewController.swift; sourceTree = "<group>"; };
 		F2FFB8D635407E0BA20C2D66 /* Pods-Lotto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotto.debug.xcconfig"; path = "Target Support Files/Pods-Lotto/Pods-Lotto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +98,8 @@
 				DED6E15B261046F800888981 /* LaunchScreen.storyboard */,
 				DED6E15E261046F800888981 /* Info.plist */,
 				DED6E16526104C6800888981 /* LottoCell.swift */,
+				DED6E16F2610813600888981 /* MainViewController.swift */,
+				DED6E172261088EC00888981 /* LastRoundViewController.swift */,
 			);
 			path = Lotto;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 				DED6E16626104C6800888981 /* LottoCell.swift in Sources */,
 				DED6E155261046F700888981 /* ViewController.swift in Sources */,
 				DED6E151261046F700888981 /* AppDelegate.swift in Sources */,
+				DED6E173261088EC00888981 /* LastRoundViewController.swift in Sources */,
 				DED6E153261046F700888981 /* SceneDelegate.swift in Sources */,
+				DED6E1702610813600888981 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
