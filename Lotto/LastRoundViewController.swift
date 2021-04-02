@@ -15,8 +15,10 @@ class LastRoundViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "회차별 당첨 결과"
         table.delegate = self
         table.dataSource = self
+        self.navigationController?.navigationBar.isHidden = false
         
         // Do any additional setup after loading the view.
     }

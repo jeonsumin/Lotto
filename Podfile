@@ -7,5 +7,5 @@ target 'Lotto' do
 
   # Pods for Lotto
 pod 'FMDB'
-
+pod 'QRCodeReader.swift','~>10.1.0'
 end
